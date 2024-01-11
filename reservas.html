@@ -7,18 +7,55 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reservas.css">
+
 </head>
 <body>
 
     <header>
-        <a href="#"><img src="img/logo.png" alt="Hotel Paraiso"></a>
-        <nav>        
+        <a href="index.html"><img src="img/logo.png" alt="Hotel Paraiso"></a>
+        <nav>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html">Sobre</a></li>
                 <li><a href="#">Reservas</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="">Contato</a></li>        
         </nav>
     </header>
 
-</body>
+<section class="reservaform">
+  <h1>Reserva de Hotel</h1>
+  <hr>
+  <form id="reservaForm">
+      <li>
+        <label for="checkin">Check-in:</label>
+        <input type="datetime-local" id="checkin" class="datepicker" required>
+      </li>
+      <li>
+        <label for="checkout">Check-out:</label>
+        <input type="datetime-local" id="checkout" class="datepicker" required>
+      </li>
+  </form>
+  
+  <button type="button" onclick="submitReservation()">Reservar</button>
+</section>
+
+    <script src="js/reserva.js"></script>
+
+    <footer>
+      <ul>
+          <li>
+              <a href=""><img src="img/facebook.png" alt="facebook"></a>
+          </li>
+          <li>
+              <a href=""><img src="img/instagram.png" alt="instagram"></a>
+          </li>
+          <li>
+              <a href=""><img src="img/social.png" alt="pintrest"></a>
+          </li>
+          <li>
+              <a href=""><img src="img/twitter.png" alt="twitter"></a>
+          </li>
+      </ul>
+      <p>Todos os direitos reservados - Hotel Paraíso 2024</p>
+    </footer>
+  </body>
 </html>

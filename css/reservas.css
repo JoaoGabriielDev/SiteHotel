@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Open Sans', sans-serif; }
 
-nav, ul{
+nav, ul, li{
     list-style: none;
 }
 
@@ -53,4 +53,95 @@ header li:last-child{
 @media (max-width: 700px){
     header {flex-direction: column;}
     header img {margin-bottom: 15px;}
+}
+
+.reservaform {
+    background-color: #191c03;
+    color: #fff;
+    padding: 140px;
+    display: flex;
+    padding-bottom: 190px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservaform form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.reservaform label, input {
+    margin-bottom: 10px;
+    
+}
+
+.reservaform label {
+    margin-right: 10px; 
+}
+
+.reservaform button {
+    background-color: #83853e;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    
+}
+
+.reservaform h1{
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.reservaform hr{
+    width: 600px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.reservaform button:hover {
+    background-color: #c3c63b;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #83853e;
+    padding: 50px 50px;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer ul li{
+    margin-right: 10px;
+}
+
+footer ul li:last-child{
+    margin-right: 0;
+}
+
+footer ul li a{
+    color: #c3c63b;
+    font-size: 2rem;  
+}
+
+footer ul li a img{
+    width: 30px;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
 }
