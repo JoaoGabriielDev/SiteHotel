@@ -55,3 +55,75 @@ header li:last-child{
     header img {margin-bottom: 15px;}
 }
 
+.contatos{
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: #191c03;
+    color: #fff;
+}
+
+.contatos h1{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contatos hr{
+    width: 600px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    border: none;
+    margin-left: 420px;
+    margin-top: 25px;
+}
+
+.contatos p {
+    margin: 20px;
+    margin-bottom: 29px;  
+}
+
+.contatos ul {
+    padding: 0;
+}
+
+.contatos li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #83853e;
+    padding: 38px 38px;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer ul li{
+    margin-right: 10px;
+}
+
+footer ul li:last-child{
+    margin-right: 0;
+}
+
+footer ul li a{
+    color: #c3c63b;
+    font-size: 2rem;  
+}
+
+footer ul li a img{
+    width: 30px;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+}
